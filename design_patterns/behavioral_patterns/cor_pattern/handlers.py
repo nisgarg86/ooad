@@ -3,8 +3,8 @@ concrete handlers for the chain of responsibility pattern
 """
 
 from typing import Dict
-from cor_pattern.abstract_handler import Handler
-from cor_pattern.utils import is_request_authenticated, is_request_authorized, place_order
+from abstract_handler import Handler
+from utils import is_request_authenticated, is_request_authorized, place_order
 
 
 class AuthorizationHandler(Handler):

@@ -4,7 +4,7 @@ client code for the chain of responsibility pattern
 
 from typing import Dict
 
-from cor_pattern.handlers import AuthorizationHandler, AuthenticationHandler, PlaceOrderHandler
+from handlers import AuthorizationHandler, AuthenticationHandler, PlaceOrderHandler
 
 def main(request: Dict[str, str]):
 

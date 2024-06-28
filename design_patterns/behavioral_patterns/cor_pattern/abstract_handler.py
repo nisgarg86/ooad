@@ -5,6 +5,7 @@ base handler class for chain of responsibility pattern
 from abc import ABC, abstractmethod
 from typing import Dict
 
+
 class Handler(ABC):
 
     def __init__(self) -> None:
@@ -17,5 +18,5 @@ class Handler(ABC):
         else:
             print('No next handler')
 
-    def set_next_handler(self, handler: Handler):
+    def set_next_handler(self, handler):
         self.set_next_handler = handler

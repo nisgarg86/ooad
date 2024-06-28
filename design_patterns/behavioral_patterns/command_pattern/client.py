@@ -3,9 +3,9 @@ client code for command pattern
 """
 
 
-from command_pattern.concrete_command import PlaceOrderCommand, CancelOrderCommand
-from command_pattern.invoker import OrderApp
-from command_pattern.receiver import OrderSystem
+from concrete_command import PlaceOrderCommand, CancelOrderCommand
+from invoker import OrderApp
+from receiver import OrderSystem
 
 if __name__ == '__main__':
 

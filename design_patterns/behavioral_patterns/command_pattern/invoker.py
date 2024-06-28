@@ -2,7 +2,7 @@
 invoker class for command pattern
 """
 
-from behavioral_patterns.command_pattern.abstract_command import Command
+from abstract_command import Command
 
 class OrderApp:
 

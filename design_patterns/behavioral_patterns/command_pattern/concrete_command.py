@@ -3,8 +3,8 @@ concrete command classes for command pattern
 """
 
 from typing import Dict
-from command_pattern.abstract_command import Command
-from behavioral_patterns.command_pattern.receiver import OrderSystem
+from abstract_command import Command
+from receiver import OrderSystem
 
 class PlaceOrderCommand(Command):
 
